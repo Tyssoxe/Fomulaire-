@@ -1,0 +1,94 @@
+.w{
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, 100px);
+}
+
+#titre {
+background-color: white;
+color: orangered;
+font-style: italic;
+padding: 0px;
+text-align: center;
+grid-column: 2;
+grid-row: 3;
+font-size: 50px;
+}
+
+#a{
+color: black;
+font-style: italic;
+padding: 0px;
+text-align: center;
+grid-column: 1;
+grid-row: 4;
+font-size: 20px;
+}
+
+#b{
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 20px;
+    }
+
+#c{
+    color: black ;
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 4;
+    font-size: 20px
+}
+
+.d{
+    background-color: beige;
+}
+
+#ap {
+    background-color: white;
+    color: orangered;
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 50px;
+    }
+
+#textea{
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 20px;
+    height: 150px;
+    width: 200px;
+}
+
+#texteb{
+    color: black;
+    font-style: italic;
+    padding: 0px;   
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 20px;
+}
+
+#textec{
+    color: black;
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+    grid-column: 4;
+    grid-row: 2;
+    font-size: 20px;
+}
